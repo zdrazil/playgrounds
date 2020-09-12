@@ -1,0 +1,15 @@
+let g:ale_javascript_eslint_options = "--cache"
+
+let b:ale_fixers = {
+            \ 'javascript': ['prettier', 'eslint'],
+            \ 'typescript': ['prettier', 'eslint'],
+            \ 'typescriptreact': ['prettier', 'eslint'],
+            \ 'javascriptreact': ['prettier', 'eslint'],
+            \}
+
+let b:ale_linters = {
+            \ 'javascript': ['tsserver', 'eslint'],
+            \ 'typescript': ['tsserver', 'eslint'],
+            \ 'typescriptreact': ['tsserver', 'eslint'],
+            \ 'javascriptreact': ['tsserver', 'eslint'],
+            \}
