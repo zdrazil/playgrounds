@@ -1,5 +1,12 @@
 const _ = require('lodash/fp');
 
+_.fromPairs([
+  ['a', 1],
+  ['b', 2],
+  ['c', 5],
+  ['5', 4],
+]);
+
 1 + 2;
 
 _.identity('a');

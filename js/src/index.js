@@ -12,6 +12,8 @@ var array = [
   { dir: 'right', code: 100 },
 ];
 
+_.get({ a: 2 }, 'a');
+
 _.keyBy(array, function (o) {
   return String.fromCharCode(o.code);
 });
