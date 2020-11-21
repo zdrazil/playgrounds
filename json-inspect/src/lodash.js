@@ -1,11 +1,4 @@
-const _ = require('lodash/fp');
-
-_.fromPairs([
-  ['a', 1],
-  ['b', 2],
-  ['c', 5],
-  ['5', 4],
-]);
+const _ = require('lodash');
 
 1 + 2;
 
@@ -26,17 +19,3 @@ _.keyBy(array, function (o) {
 
 _.keyBy(array, 'dir');
 // => { 'left': { 'dir': 'left', 'code': 97 }, 'right': { 'dir': 'right', 'code': 100 } }
-//
-//
-//
-function square(n) {
-  return n * n;
-}
-
-_.map([4, 8], square);
-
-_.map({ a: 4, b: 8 }, square);
-
-var users = [{ user: 'barney' }, { user: 'fred' }];
-
-_.map('user', users);

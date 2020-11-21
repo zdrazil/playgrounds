@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "main": "src/app.ts",
+  "author": "Vladimir Zdrazil",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "lint-prettier": "yarn prettier --write src/"
+  },
+  "dependencies": {
+    "ramda": "0.27.1",
+    "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.161",
+    "@types/node": "14.10.1",
+    "@types/ramda": "0.27.17",
+    "eslint": "7.8.1",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.1.1",
+    "typescript": "4.0.2"
+  }
+}
